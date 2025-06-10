@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - koppiku.iium</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">🌿 koppiku.iium</div>
+            
+            <!-- Navigation -->
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2>Contact Us</h2>
+            <div class="fade-in">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3 style="color: #fcfcfc;">📍 Location</h3>
+                        <p style="color: #ffffff;">Lot KCX 9, International Islamic University Islam (IIUM)<br>Jalan Gombak, 53100<br>Selangor, Malaysia</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3 style="color: #ffffff;">📞 Phone</h3>
+                        <p style="color: #ffffff;">+62 21 1234 5678<br>+62 812 3456 7890</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3 style="color: #ffffff;">📧 Social Media</h3>
+                        <p style="color: #ffffff;">Instagram: koppiku.my<br>Facebook: Koppiku</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3 style="color: #ffffff;">🕒 Hours</h3>
+                        <p style="color: #ffffff;">Mon-Fri: 8:00 AM - 6:00 PM<br>Sat: 10:00 AM - 5:30 PM<br>Sun: Closed</p>
+                    </div>
+                </div>
+                
+                <div class="form-container">
+                    <h3 style="color: #ffffff; text-align: center; margin-bottom: 2rem;">Send us a Message</h3>
+                    <form onsubmit="event.preventDefault(); submitContactForm();">
+                        <div class="form-group">
+                            <label style="color: #ffffff;">Name</label>
+                            <input type="text" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label style="color: #ffffff;">Email</label>
+                            <input type="email" placeholder="Your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label style="color: #ffffff;">Message</label>
+                            <textarea placeholder="Your message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

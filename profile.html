@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - koppiku.iium</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">🌿 koppiku.iium</div>
+            
+            <!-- Navigation -->
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="profile.html" class="active">Profile</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2>User Profile</h2>
+            <div class="form-container fade-in">
+                <h3 style="color: #ffffff; text-align: center; margin-bottom: 2rem;">User Details</h3>
+                <div class="form-group">
+                    <label style="color: #ffffff;" >Full Name</label>
+                    <input style="color: #f5fceb;" type="text" placeholder="Enter your full name" value="Ahmad John">
+                </div>
+                <div class="form-group">
+                    <label style="color: #ffffff;">Email</label>
+                    <input style="color: #f5fceb;" type="email" placeholder="Enter your email" value="john23@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label style="color: #ffffff;">Phone</label>
+                    <input style="color: #f5fceb;" type="tel" placeholder="Enter your phone number" value="+60 112 3456 7890">
+                </div>
+                <div class="form-group">
+                    <label style="color: #ffffff;">Address</label>
+                    <input style="color: #f5fceb;" type="text" placeholder="Enter your address" value="Kuala Lumpur, Malaysia">
+                </div>
+                <button class="btn btn-primary" style="width: 100%;" onclick="updateProfile()">Update Profile</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

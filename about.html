@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - koppiku.iium</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">🌿 koppiku.iium</div>
+            
+            <!-- Navigation -->
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2>About Us</h2>
+            <div class="about-content fade-in">
+                <h3 style="color: rgb(255, 255, 255); margin: 2rem 0 1rem 0;">HELLO, FROM KOPPIKU</h3>
+                <p style="color: white">We are a home-grown coffee company from Malaysia that aims to make premium coffee accessible to all. From beans to cups, we deliver on affordability, without compromising on quality.</p>
+                <br>
+                <p style="color: white">Our journey began with a simple mission: to bring exceptional coffee experiences to every corner of our community. We source our beans directly from local farmers, ensuring fair trade practices and the freshest quality for our customers.</p>
+                <br>
+                <p style="color: white">At Koppiku, we believe that great coffee should be an everyday luxury, not a rare treat. That's why we've crafted our menu to offer premium beverages and artisanal food at prices that won't break the bank.</p>
+                <br>
+                <p style="color: white">Whether you're looking for your morning energy boost, an afternoon pick-me-up, or a cozy evening treat, we're here to serve you with passion, quality, and a warm smile.</p>
+            </div>
+
+            <style>
+                #map {
+                    height: 400px;
+                    width: 100%;
+                    margin-bottom: 20%;
+                    border-radius: 30px;
+                }
+            </style>
+        
+            <h2 style="color: white">Location</h2>
+            <div id="map"></div>
+        
+             <script src="script.js"></script>
+
+            <script
+                async
+                defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD8OPvLKXuy4p008rYiYmCM9cH5aYdrTSQ&callback=initMap">
+            </script>
+        </section>
+
+    
+    </main> 
+</body>
+</html>
